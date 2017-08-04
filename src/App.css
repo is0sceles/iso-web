@@ -1,0 +1,130 @@
+html,body {
+  height:100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: Lato, sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+
+a {
+  padding: 20px;
+  text-decoration: none;
+  color: #FFF;
+}
+
+.companies {
+  width: 250px;
+}
+
+.card .card-image img {
+  /*border-radius: 50%;*/
+  padding: 10px;
+  height: 96px;
+}
+
+.cardIcons {
+  display: inline-block;
+  /*border-radius: 50%;*/
+  /*width: 100px;*/
+  top: 5px;
+  padding: 2px;
+}
+
+.btn-font {
+  font-size: 9px;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  font-size: 27px;
+  letter-spacing: 8px;
+}
+
+.border {
+  padding: 20px;
+  background: #111;
+  color: #fff;
+} 
+
+.section {
+  text-align: center;
+  padding: 50px 80px;
+}  
+
+.section-light {
+  background: #ffffff;
+  color: #666
+}  
+
+.section-dark {
+  background:#282e34;
+  color: #ddd;
+}  
+
+.about_table {
+  text-align: start;
+  margin: auto auto;
+}
+
+.bands {
+  color: #1e90ff;
+}
+
+.pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
+  position: relative;
+  opacity: 0.90;
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url('https://images.pexels.com/photos/482634/pexels-photo-482634.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  min-height: 100vh;
+  
+
+}
+.pimg2 {
+  background-image: url('https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  min-height: 400px;
+  
+
+}
+.pimg3 {
+  background-image: url('https://images.pexels.com/photos/270623/pexels-photo-270623.png?w=940&h=650&auto=compress&cs=tinysrgb');
+  min-height: 400px;
+  
+
+}
+.pimg4 {
+  background-image: url('https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  min-height: 400px;
+  
+
+}
+.pimg5 {
+  /*background-image: url('https://images.pexels.com/photos/499324/pexels-photo-499324.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');*/
+  background-image: url('assets/bm.jpg');
+  min-height: 400px;
+  
+
+}
+.pimg6 {
+  background-image: url('https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');  
+  min-height: 400px;
+  opacity: .8;
+}
+
+@media(max-width:568px) {
+  .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
+    background-attachment: scroll;
+  }
+}
