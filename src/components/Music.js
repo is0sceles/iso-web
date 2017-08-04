@@ -29,7 +29,9 @@ export default class Music extends Component {
               </a>
             </div>
           </div>
+          <hr  />
           <h2> Other Side Projects </h2>
+          <hr  />
           <h4 className="bands"> the scandanvian swimmers </h4>
           <h4 className="bands"> blueberry survival mechanism </h4>
         </section>
