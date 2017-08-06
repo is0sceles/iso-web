@@ -12,10 +12,7 @@ export default class Music extends Component {
           </div>
         </div>
         <section id="contact" className="section section-dark">
-          <h2> contact </h2>
-
-          <p> What is Lorem Ipsum?
-Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+          {/* <h2> contact </h2> */}
           <div className="card cardIcons">
             <div className="card-image">
               <a href="http://www.linkedin.com/in/wasiff">

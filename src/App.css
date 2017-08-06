@@ -8,12 +8,17 @@ html,body {
   font-weight: 400;
   line-height: 1.8em;
   color: #666;
+  font-family: 'Play', sans-serif;
 }
 
 a {
   padding: 20px;
   text-decoration: none;
   color: #FFF;
+}
+
+.name {
+ color: #26aee9;
 }
 
 .companies {
@@ -69,6 +74,66 @@ a {
   color: #ddd;
 }  
 
+/* About */
+
+.about_container {
+    display: flex;
+    overflow: hidden;
+    height: 50vh;
+    margin-top: -100px;
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+    backface-visibility: hidden;
+    will-change: overflow;
+}
+
+.Left,
+.Middle,
+.Right {
+    overflow: auto;
+    height: auto;
+    padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+}
+
+.Left {
+    width: 12.5rem;
+}
+
+.pannel_title {
+  color: #26aee9;
+}
+
+
+.Middle {
+    flex: 1;
+}
+
+.Right {
+    width: 12.5rem;
+}
+
+.school {
+  color: #26aee9;
+  display: inline-block;
+}
+
+.school a {
+  color: currentColor;
+}
+
+.school_year {
+  font-size: 12px;
+  display: inline-block;
+  margin-left: -10px;
+}
+
+.degree {
+  display: block;
+}
+
 .about_table {
   text-align: start;
   margin: auto auto;
@@ -84,7 +149,6 @@ a {
   background-position: center; 
   background-repeat: no-repeat;
   background-size: cover;
-
   background-attachment: fixed;
 }
 
@@ -134,8 +198,8 @@ a {
 /* Nielsen, digitas, BHP, TiVo, Carat, Boni */
 
 .container {
-  font-family: 'Play', sans-serif;
-  background: #050505;
+/*   font-family: 'Play', sans-serif;
+ */  background: #050505;
   color: #ffffff;
   line-height: 20px;
   padding: 200px;
@@ -160,4 +224,8 @@ a {
 
 #bhp_title {
   color: #562505
+}
+
+#tivo_title {
+  color: #38b230;
 }

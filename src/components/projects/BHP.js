@@ -5,7 +5,7 @@ export default class BHP extends Component {
   render() {
     return (
       <div className="container">
-        <img src={require('../../assets/bhp.jpg')} alt="big_hearts_pets_logo" />
+        <img src={require('../../assets/bhp.jpg')} className="logo_Images" alt="big_hearts_pets_logo" />
         {/* <h4> <span className="job_years"> </span> </h4> */}
         <h3> Research Analyst | <span id="bhp_title"> Market Intelligence </span> </h3>
         <ul> <span className="category"> Base Analytics </span>

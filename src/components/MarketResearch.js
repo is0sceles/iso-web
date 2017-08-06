@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Nielsen from './projects/Nielsen';
 import Digitas from './projects/Digitas';
 import BHP from './projects/BHP';
-
+import Tivo from './projects/Tivo';
 
 export default class MarketResearch extends Component {
   render() {
@@ -67,6 +67,7 @@ export default class MarketResearch extends Component {
         <Nielsen />
         <Digitas />
         <BHP />
+        <Tivo />
       </div>
     );
   }

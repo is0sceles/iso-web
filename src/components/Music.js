@@ -14,7 +14,6 @@ export default class Music extends Component {
         </div>
         <section id="music" className="section section-dark">
           <h2 className="bands"> the basement.als </h2>
-          <p> The Basementals are a rock and roll band from San Francisco, California. </p>
           <div className="card cardIcons">
             <div className="card-image">
               <a href="http://www.facebook.com/thebasementals">
@@ -29,9 +28,9 @@ export default class Music extends Component {
               </a>
             </div>
           </div>
-          <hr  />
-          <h2> Other Side Projects </h2>
-          <hr  />
+          <hr />
+          <h2> Side Projects </h2>
+          <hr />
           <h4 className="bands"> the scandanvian swimmers </h4>
           <h4 className="bands"> blueberry survival mechanism </h4>
         </section>
