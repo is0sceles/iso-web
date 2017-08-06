@@ -15,25 +15,25 @@ export default class About extends Component {
         <section id="about" className="section section-dark">
           <span className="name"> <h2> <span className="first_letter"> W</span>asiff Afzal </h2> </span>
           <hr />
-          <div className="about_container">
+          <div className="section_container">
             <div className="Left">
               <h4 className="pannel_title">Education</h4>
-              <h3 className="school"><a href="">EPFLx,</a></h3> <span className="school_year">2017</span><span className="degree">
+              <h3 className="school"><a href="">EPFLx</a></h3> <span className="school_year">2017</span><span className="degree">
 Computer Science: Biology in JavaScript - Genetic & epidemic modeling</span>
 
-              <h3 className="school"><a href="">Hack Reactor,</a></h3> <span className="school_year">2017</span><span className="degree">
+              <h3 className="school"><a href="">Hack Reactor</a></h3> <span className="school_year">2017</span><span className="degree">
 Immersive Software Engineering</span>
 
-              <h3 className="school"><a href="">CodePath,</a></h3> <span className="school_year">2016</span><span className="degree">
+              <h3 className="school"><a href="">CodePath</a></h3> <span className="school_year">2016</span><span className="degree">
 Android Development</span>
 
-              <h3 className="school"><a href="">MIT (OCW),</a></h3> <span className="school_year">2016</span><span className="degree">
+              <h3 className="school"><a href="">MIT (OCW)</a></h3> <span className="school_year">2016</span><span className="degree">
 Introduction to Algorithms</span>
 
-              <h3 className="school"><a href="">CCSF,</a></h3> <span className="school_year">2015</span><span className="degree">
+              <h3 className="school"><a href="">CCSF</a></h3> <span className="school_year">2015</span><span className="degree">
 Computer Science: Java</span>
 
-              <h3 className="school"><a href="">SFSU,</a></h3> <span className="school_year">2008</span><span className="degree">
+              <h3 className="school"><a href="">SFSU</a></h3> <span className="school_year">2008</span><span className="degree">
 BSc. Corporate Finance & Financial Services</span>
             </div>
             <div className="Middle">
@@ -54,7 +54,7 @@ BSc. Corporate Finance & Financial Services</span>
                   </tr>
                   <tr>
                     <td>Order:</td>
-                    <td>Primates</td>
+                    <td>Primate</td>
                   </tr>
                   <tr>
                     <td>Family:</td>

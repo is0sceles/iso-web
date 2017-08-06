@@ -17,8 +17,8 @@ a {
   color: #FFF;
 }
 
-.name {
- color: #26aee9;
+li {
+  list-style-type: lower-greek;
 }
 
 .companies {
@@ -76,7 +76,7 @@ a {
 
 /* About */
 
-.about_container {
+.section_container {
     display: flex;
     overflow: hidden;
     height: 50vh;
@@ -103,7 +103,7 @@ a {
 }
 
 .pannel_title {
-  color: #26aee9;
+  color: #1e90ff;
 }
 
 
@@ -116,7 +116,7 @@ a {
 }
 
 .school {
-  color: #26aee9;
+  color: #1e90ff;
   display: inline-block;
 }
 
@@ -132,12 +132,60 @@ a {
 
 .degree {
   display: block;
+  margin-top: -15px;
+  padding-bottom: 20px;
 }
 
 .about_table {
   text-align: start;
   margin: auto auto;
 }
+
+/* Machine */
+.machine_left {
+  width: 100vh;
+}
+
+.technologies {
+    background: #4D776D;
+    color: #fff;
+    padding: 4px;
+    display: block;
+    font-size: 12px;
+}
+
+#machine li:last-child {
+    list-style: none;
+}
+
+.resume:hover {
+
+    cursor: pointer;
+    animation-duration: 3s;
+    animation-name: comein;
+}
+
+@keyframes comein {
+  0% {
+        background: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1
+  }
+  10% {
+        background: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 0.5
+  }
+  100% {
+        background: aliceblue;
+    padding-left: 10px;
+    padding-right: 10px;
+    opacity: 1
+  }
+}
+
 
 .bands {
   color: #1e90ff;
@@ -150,38 +198,26 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
+    min-height: 500px;
 }
 
 .pimg1 {
   background-image: url('assets/landing.jpeg');
   min-height: 100vh;
-  
-
 }
 .pimg2 {
   background-image: url('assets/about.jpeg');
-  min-height: 400px;
-  
-
 }
 .pimg3 {
   background-image: url('assets/machine.jpeg');
-  min-height: 400px;
-  
-
 }
 .pimg4 {
   background-image: url('assets/mr.jpeg');
   min-height: 400px;
-  
-
 }
 .pimg5 {
   /*background-image: url('https://images.pexels.com/photos/499324/pexels-photo-499324.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');*/
   background-image: url('assets/bm.jpg');
-  min-height: 400px;
-  
-
 }
 .pimg6 {
   background-image: url('assets/contact.jpeg');  
@@ -203,6 +239,7 @@ a {
   color: #ffffff;
   line-height: 20px;
   padding: 200px;
+  opacity: .5;
 }
 
 .category {
