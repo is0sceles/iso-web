@@ -1,3 +1,5 @@
+/* About, Contact, Home, Machine, MarketResearch, Music */
+
 html,body {
   height:100%;
   margin: 0;
@@ -87,25 +89,25 @@ a {
 }
 
 .pimg1 {
-  background-image: url('https://images.pexels.com/photos/482634/pexels-photo-482634.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  background-image: url('assets/landing.jpeg');
   min-height: 100vh;
   
 
 }
 .pimg2 {
-  background-image: url('https://images.pexels.com/photos/276514/pexels-photo-276514.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  background-image: url('assets/about.jpeg');
   min-height: 400px;
   
 
 }
 .pimg3 {
-  background-image: url('https://images.pexels.com/photos/270623/pexels-photo-270623.png?w=940&h=650&auto=compress&cs=tinysrgb');
+  background-image: url('assets/machine.jpeg');
   min-height: 400px;
   
 
 }
 .pimg4 {
-  background-image: url('https://images.pexels.com/photos/241544/pexels-photo-241544.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');
+  background-image: url('assets/mr.jpeg');
   min-height: 400px;
   
 
@@ -118,7 +120,7 @@ a {
 
 }
 .pimg6 {
-  background-image: url('https://images.pexels.com/photos/207456/pexels-photo-207456.jpeg?w=940&h=650&auto=compress&cs=tinysrgb');  
+  background-image: url('assets/contact.jpeg');  
   min-height: 400px;
   opacity: .8;
 }
@@ -127,4 +129,35 @@ a {
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
     background-attachment: scroll;
   }
+}
+
+/* Nielsen, digitas, BHP, TiVo, Carat, Boni */
+
+.container {
+  font-family: 'Play', sans-serif;
+  background: #050505;
+  color: #ffffff;
+  line-height: 20px;
+  padding: 200px;
+}
+
+.category {
+  color: #fdc930;
+}
+
+.logo_Images {
+  background: #ffffff;
+  height: 200px;
+}
+
+#nielsen_title {
+  color: #26aee9;
+}
+
+#digitas_title {
+  color: #b60811;
+}
+
+#bhp_title {
+  color: #562505
 }

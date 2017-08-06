@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Nielsen from './projects/Nielsen';
+import Digitas from './projects/Digitas';
+import BHP from './projects/BHP';
 
 
 export default class MarketResearch extends Component {
@@ -61,6 +64,9 @@ export default class MarketResearch extends Component {
   </p>
           <pre> - Arthur Schopenhauer </pre>
         </section>
+        <Nielsen />
+        <Digitas />
+        <BHP />
       </div>
     );
   }

@@ -16,38 +16,40 @@ export default class About extends Component {
           <h2> about </h2>
           <hr />
           <table className="about_table">
-            <tr>
-              <td>Kingdom:</td>
-              <td>Animalia</td>
-            </tr>
-            <tr>
-              <td>Phylum:</td>
-              <td>Chordata</td>
-            </tr>
-            <tr>
-              <td>Class:</td>
-              <td>Mammalia</td>
-            </tr>
-            <tr>
-              <td>Order:</td>
-              <td>Primates</td>
-            </tr>
-            <tr>
-              <td>Family:</td>
-              <td>Hominidae</td>
-            </tr>
-            <tr>
-              <td>Tribe:</td>
-              <td>Hominini</td>
-            </tr>
-            <tr>
-              <td>Genus:</td>
-              <td>Homo</td>
-            </tr>
-            <tr>
-              <td>Species:</td>
-              <td>Homo Sapien</td>
-            </tr>
+            <tbody>
+              <tr>
+                <td>Kingdom:</td>
+                <td>Animalia</td>
+              </tr>
+              <tr>
+                <td>Phylum:</td>
+                <td>Chordata</td>
+              </tr>
+              <tr>
+                <td>Class:</td>
+                <td>Mammalia</td>
+              </tr>
+              <tr>
+                <td>Order:</td>
+                <td>Primates</td>
+              </tr>
+              <tr>
+                <td>Family:</td>
+                <td>Hominidae</td>
+              </tr>
+              <tr>
+                <td>Tribe:</td>
+                <td>Hominini</td>
+              </tr>
+              <tr>
+                <td>Genus:</td>
+                <td>Homo</td>
+              </tr>
+              <tr>
+                <td>Species:</td>
+                <td>Homo Sapien</td>
+              </tr>
+            </tbody>
           </table>
         </section>
       </div>
