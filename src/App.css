@@ -147,7 +147,7 @@ li {
 }
 
 .technologies {
-    background: #4D776D;
+    background: #572b77;
     color: #fff;
     padding: 4px;
     display: block;
@@ -167,25 +167,19 @@ li {
 
 @keyframes comein {
   0% {
-        background: aliceblue;
+    background: aliceblue;
     padding-left: 10px;
     padding-right: 10px;
-    opacity: 1
-  }
-  10% {
-        background: aliceblue;
-    padding-left: 10px;
-    padding-right: 10px;
-    opacity: 0.5
   }
   100% {
-        background: aliceblue;
-    padding-left: 10px;
-    padding-right: 10px;
-    opacity: 1
+    color: #572b77;
   }
 }
 
+.hub p {
+    background: floralwhite;
+    margin-top: 55px;
+}
 
 .bands {
   color: #1e90ff;
@@ -225,6 +219,10 @@ li {
   opacity: .8;
 }
 
+.card .social img {
+  height: 50px;
+}
+
 @media(max-width:568px) {
   .pimg1, .pimg2, .pimg3, .pimg4, .pimg5, .pimg6 {
     background-attachment: scroll;
@@ -234,12 +232,47 @@ li {
 /* Nielsen, digitas, BHP, TiVo, Carat, Boni */
 
 .container {
-/*   font-family: 'Play', sans-serif;
- */  background: #050505;
+/*   font-family: 'Play', sans-serif; */  
+  position: absolute;
+  background: #050505;
   color: #ffffff;
   line-height: 20px;
   padding: 200px;
-  opacity: .5;
+  opacity: .8;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.closeBtn {
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+  top: -40px;
+  right: -40px; 
+  transition: all ease-in-out 100ms;
+  margin-top: 70px;
+  margin-right: 70px;
+}
+
+.closeBtn:hover {
+  transform: scale(1.2)
+}
+
+.modal {
+  max-width: 600px;
+  padding: 30px;
+  background: black;
+  box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
+  position: relative;
 }
 
 .category {

@@ -15,15 +15,15 @@ export default class Music extends Component {
         <section id="music" className="section section-dark">
           <h2 className="bands"> the basement.als </h2>
           <div className="card cardIcons">
-            <div className="card-image">
+            <div className="card-image social">
               <a href="http://www.facebook.com/thebasementals">
                 <img className="responsive-img" src="https://cdn.worldvectorlogo.com/logos/facebook-3.svg" />
               </a>
             </div>
           </div>
           <div className="card cardIcons">
-            <div className="card-image">
-              <a href="###">
+            <div className="card-image social">
+              <a href="http://soundcloud.com/thebasementals">
                 <img className="responsive-img" src="https://www.software.de/media/image/thumbnail/soundcloud-icon_1280x1280@2x.png" />
               </a>
             </div>

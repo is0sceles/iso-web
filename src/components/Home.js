@@ -15,7 +15,7 @@ export default class Home extends Component {
         <section className="section section-dark">
           <div className="row">
             <a href="#about" className="waves-effect waves-teal btn-flat">About</a>
-            <a href="#machine" className="waves-effect waves-teal btn-flat">Machine</a>
+            <a href="#machine" className="waves-effect waves-teal btn-flat">Computer Science</a>
             <a href="#marketresearch" className="waves-effect waves-teal btn-flat">Market Research</a>
             <a href="#music" className="waves-effect waves-teal btn-flat">Music</a>
             <a href="#contact" className="waves-effect waves-teal btn-flat">Contact</a>

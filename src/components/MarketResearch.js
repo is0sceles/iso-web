@@ -65,9 +65,6 @@ export default class MarketResearch extends Component {
           <pre> - Arthur Schopenhauer </pre>
         </section>
         <Nielsen />
-        <Digitas />
-        <BHP />
-        <Tivo />
       </div>
     );
   }
