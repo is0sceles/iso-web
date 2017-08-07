@@ -141,6 +141,12 @@ li {
   margin: auto auto;
 }
 
+/* Market Research */
+
+.projects {
+  cursor: pointer;
+}
+
 /* Machine */
 .machine_left {
   width: 100vh;
@@ -238,14 +244,17 @@ li {
   color: #ffffff;
   line-height: 20px;
   padding: 200px;
-  opacity: .8;
-  top: 0;
+  opacity: .9;
+  top: 3200px;
   left: 0;
   bottom: 0;
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;    
+  z-index: 2;
+  height: 600px;
+  display: none;
 }
 
 .closeBtn {
@@ -256,8 +265,9 @@ li {
   text-align: center;
   line-height: 30px;
   cursor: pointer;
-  top: -40px;
-  right: -40px; 
+  top: 50px;
+  right: 110px;
+  z-index: 3;
   transition: all ease-in-out 100ms;
   margin-top: 70px;
   margin-right: 70px;
@@ -273,6 +283,14 @@ li {
   background: black;
   box-shadow: 0px 4px 20px rgba(0,0,0,0.4);
   position: relative;
+}
+
+.is_active {
+  display: flex;
+}
+
+.not_active {
+  display: none;
 }
 
 .category {

@@ -5,6 +5,16 @@ import BHP from './projects/BHP';
 import Tivo from './projects/Tivo';
 
 export default class MarketResearch extends Component {
+  componentDidMount() {
+    const container = document.getElementById('overlay');
+    const test = document.getElementsByClassName('projects');
+    test[0].addEventListener('click', (e) => {
+      e.preventDefault();
+      console.log('clicked', container);
+      container.classList.remove('not_active');
+      container.classList.add('is_active');
+    });
+  }
   render() {
     return (
       <div>
@@ -26,9 +36,7 @@ export default class MarketResearch extends Component {
           </div>
           <div className="card cardIcons">
             <div className="card-image">
-              <a href="#">
-                <img className="responsive-img black" src="https://vignette1.wikia.nocookie.net/logopedia/images/8/8a/TiVo.svg/revision/latest/scale-to-width-down/200?cb=20170610071046" />
-              </a>
+              <img id="test" className="responsive-img projects" src="https://vignette1.wikia.nocookie.net/logopedia/images/8/8a/TiVo.svg/revision/latest/scale-to-width-down/200?cb=20170610071046" />
             </div>
           </div>
           <div className="card cardIcons">
@@ -64,7 +72,10 @@ export default class MarketResearch extends Component {
   </p>
           <pre> - Arthur Schopenhauer </pre>
         </section>
-        <Nielsen />
+        {/* <Nielsen /> */}
+        <Tivo />
+        {/*     <BHP />
+        <Tivo /> */}
       </div>
     );
   }
