@@ -25,6 +25,10 @@ li {
   width: 250px;
 }
 
+.projects {
+  cursor: pointer;
+}
+
 .card .card-image img {
   /*border-radius: 50%;*/
   padding: 10px;
@@ -141,12 +145,6 @@ li {
   margin: auto auto;
 }
 
-/* Market Research */
-
-.projects {
-  cursor: pointer;
-}
-
 /* Machine */
 .machine_left {
   width: 100vh;
@@ -255,6 +253,7 @@ li {
   z-index: 2;
   height: 600px;
   display: none;
+  transition: all 300 ease-in-out;
 }
 
 .closeBtn {

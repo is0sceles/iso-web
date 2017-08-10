@@ -2,11 +2,18 @@ import React, { Component } from 'react';
 
 
 export default class Nielsen extends Component {
+  componentDidMount() {
+    const nielsenClose = document.getElementById('nielsen_close');
+    nielsenClose.addEventListener('click', () => {
+      const nielsen = document.getElementById('nielsen');
+      nielsen.classList.add('not_active');
+    });
+  }
   render() {
     return (
       <div className="modal_body">
-        <div className="container">
-          <div className="closeBtn"><i className="ion-close" /> </div>
+        <div id="nielsen" className="container overlay">
+          <div id="nielsen_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
             <img src="https://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0015/8334/brand.gif?itok=IgwBPBI7" className="logo_Images" alt="nielsen_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}

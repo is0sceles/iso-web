@@ -5,7 +5,7 @@ export default class Carat extends Component {
   render() {
     return (
       <div className="modal_body">
-        <div className="container">
+        <div className="container overlay">
           <div className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
             <img src={require('../../assets/tivo.png')} className="logo_Images" alt="tivo_logo" />

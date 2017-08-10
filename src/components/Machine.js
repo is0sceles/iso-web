@@ -47,12 +47,12 @@ Webpack, PubNub, Git</span> </li>
               </ul></span>
               <h3 className="school">Shippo-rt</h3> <span className="degree"><ul>
                 <li> Architected the front-end of a shipment tracking web application integrating the Shippo & Google Maps APIs to create a visual journey of online orders and packages in transit</li>
-                <li> Designed for Shippo at San Francisco Dev. Week            </li>
+                <li> Designed for Shippo at San Francisco Dev. Week              </li>
                 <li> <span className="technologies">  PHP, JavaScript, jQuery, HTML, CSS, WAMP, Shippo API, Google Maps API </span></li>
               </ul></span>
               <h3 className="school">Github Profile Viewer</h3> <span className="degree"><ul>
-                <li> A mini application that uses GitHubs’ API to search and browse GitHub repositories</li>
-                <li> Filter by language, stars or name            </li>
+                <li> A mini application that uses GitHubs’ API to search and browse repositories</li>
+                <li> Filter by language, stars or name              </li>
                 <li> <span className="technologies">  HTML, CSS, AngularJS, jQuery </span></li>
               </ul></span>
               <h3 className="school">Js.rb</h3> <span className="degree"><ul>
@@ -73,7 +73,7 @@ Webpack, PubNub, Git</span> </li>
             </div>
             <div className="hub">
               <h5 className="school resume"> résumé ;  web software developer </h5>
-              <p>It always takes longer than you expect, even when you take into account Hofstadter's Law.</p>
+              <p> It always takes longer than you expect, even when you take into account Hofstadter's Law </p>
               <pre> - Hofstadter's Law </pre>
             </div>
           </div>

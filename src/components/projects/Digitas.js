@@ -2,11 +2,18 @@ import React, { Component } from 'react';
 
 
 export default class Digitas extends Component {
+  componentDidMount() {
+    const digitasClose = document.getElementById('digitas_close');
+    digitasClose.addEventListener('click', () => {
+      const digitas = document.getElementById('digitas');
+      digitas.classList.add('not_active');
+    });
+  }
   render() {
     return (
       <div className="modal_body">
-        <div className="container">
-          <div className="closeBtn"><i className="ion-close" /> </div>
+        <div id="digitas" className="container overlay">
+          <div id="digitas_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
             <img src={require('../../assets/digitaslbi.png')} className="logo_Images" alt="digitas_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}

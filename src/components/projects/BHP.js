@@ -2,10 +2,18 @@ import React, { Component } from 'react';
 
 
 export default class BHP extends Component {
+  componentDidMount() {
+    const bhpClose = document.getElementById('digitas_close');
+    bhpClose.addEventListener('click', () => {
+      console.log('tivo close listener');
+      const bhp = document.getElementById('digitas');
+      bhp.classList.add('not_active');
+    });
+  }
   render() {
     return (
       <div className="modal_body">
-        <div className="container">
+        <div id="bhp" className="container overlay">
           <div className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
             <img src={require('../../assets/bhp.jpg')} className="logo_Images" alt="big_hearts_pets_logo" />

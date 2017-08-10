@@ -3,17 +3,18 @@ import React, { Component } from 'react';
 
 export default class Tivo extends Component {
   componentDidMount() {
-    const close = document.getElementById('close');
-    close.addEventListener('click', () => {
-      const container = document.getElementById('overlay');
-      container.classList.add('not_active');
+    const tivoClose = document.getElementById('tivo_close');
+    tivoClose.addEventListener('click', () => {
+      console.log('tivo close listener');
+      const tivo = document.getElementById('tivo');
+      tivo.classList.add('not_active');
     });
   }
   render() {
     return (
       <div className="modal_body">
-        <div id="overlay" className="container">
-          <div id="close" className="closeBtn"><i className="ion-close" /> </div>
+        <div id="tivo" className="container overlay">
+          <div id="tivo_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
             <img src={require('../../assets/tivo.png')} className="logo_Images" alt="tivo_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}
