@@ -17,7 +17,7 @@ export default class Nielsen extends Component {
           <div className="modal">
             <img src="https://www.brandsoftheworld.com/sites/default/files/styles/logo-thumbnail/public/0015/8334/brand.gif?itok=IgwBPBI7" className="logo_Images" alt="nielsen_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}
-            <h3>Research Manager | <span id="nielsen_title"> Consumer Insights </span> </h3>
+            <h3> Research Manager | <span id="nielsen_title"> Consumer Insights </span> </h3>
             <ul> <span className="category">Media Survey: </span>
               <li> Work with proposal and business development teams</li>
               <li> Management and supervision of client reporting through entire cycle</li>

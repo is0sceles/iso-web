@@ -3,10 +3,9 @@ import React, { Component } from 'react';
 
 export default class BHP extends Component {
   componentDidMount() {
-    const bhpClose = document.getElementById('digitas_close');
+    const bhpClose = document.getElementById('bhp_close');
     bhpClose.addEventListener('click', () => {
-      console.log('tivo close listener');
-      const bhp = document.getElementById('digitas');
+      const bhp = document.getElementById('bhp');
       bhp.classList.add('not_active');
     });
   }
@@ -14,7 +13,7 @@ export default class BHP extends Component {
     return (
       <div className="modal_body">
         <div id="bhp" className="container overlay">
-          <div className="closeBtn"><i className="ion-close" /> </div>
+          <div id="bhp_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
             <img src={require('../../assets/bhp.jpg')} className="logo_Images" alt="big_hearts_pets_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}

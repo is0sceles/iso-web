@@ -3,6 +3,8 @@ import Nielsen from './projects/Nielsen';
 import Digitas from './projects/Digitas';
 import BHP from './projects/BHP';
 import Tivo from './projects/Tivo';
+import Carat from './projects/Carat';
+import Boni from './projects/Boni';
 
 export default class MarketResearch extends Component {
   componentDidMount() {
@@ -17,7 +19,6 @@ export default class MarketResearch extends Component {
     for (let i = 0; i < projects.length; i += 1) {
       projects[i].addEventListener('click', (e) => {
         e.preventDefault();
-        console.log(e.target.alt);
         switch (e.target.alt) {
           case 'nielsen':
             for (let i = 0; i < containers.length; i += 1) {
@@ -34,9 +35,28 @@ export default class MarketResearch extends Component {
             }
             break;
           case 'tivo':
-            console.log('switch statement tivo');
             for (let i = 0; i < containers.length; i += 1) {
-              console.log('containers[i] ', containers[i]);
+              if (containers[i].id === e.target.alt) {
+                setActiveClass(i);
+              }
+            }
+            break;
+          case 'bhp':
+            for (let i = 0; i < containers.length; i += 1) {
+              if (containers[i].id === e.target.alt) {
+                setActiveClass(i);
+              }
+            }
+            break;
+          case 'carat':
+            for (let i = 0; i < containers.length; i += 1) {
+              if (containers[i].id === e.target.alt) {
+                setActiveClass(i);
+              }
+            }
+            break;
+          case 'boni':
+            for (let i = 0; i < containers.length; i += 1) {
               if (containers[i].id === e.target.alt) {
                 setActiveClass(i);
               }
@@ -95,6 +115,8 @@ export default class MarketResearch extends Component {
         <Tivo />
         <BHP />
         <Digitas />
+        <Carat />
+        <Boni />
       </div>
     );
   }

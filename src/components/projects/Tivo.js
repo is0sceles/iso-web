@@ -5,7 +5,6 @@ export default class Tivo extends Component {
   componentDidMount() {
     const tivoClose = document.getElementById('tivo_close');
     tivoClose.addEventListener('click', () => {
-      console.log('tivo close listener');
       const tivo = document.getElementById('tivo');
       tivo.classList.add('not_active');
     });

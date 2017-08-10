@@ -310,9 +310,17 @@ li {
 }
 
 #bhp_title {
-  color: #562505
+  color: #d52540
 }
 
 #tivo_title {
   color: #38b230;
+}
+
+#carat_title {
+ color: #26aee9; 
+}
+
+#boni_title {
+  color: #19af59;
 }

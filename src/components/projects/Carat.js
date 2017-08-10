@@ -2,37 +2,29 @@ import React, { Component } from 'react';
 
 
 export default class Carat extends Component {
+  componentDidMount() {
+    const caratClose = document.getElementById('carat_close');
+    caratClose.addEventListener('click', () => {
+      const carat = document.getElementById('carat');
+      carat.classList.add('not_active');
+    });
+  }
   render() {
     return (
       <div className="modal_body">
-        <div className="container overlay">
-          <div className="closeBtn"><i className="ion-close" /> </div>
+        <div id="carat" className="container overlay">
+          <div id="carat_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
-            <img src={require('../../assets/tivo.png')} className="logo_Images" alt="tivo_logo" />
+            <img src={require('../../assets/carat.png')} className="logo_Images" alt="carat_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}
-            <h3> Research Analyst | <span id="tivo_title"> Market Research & Account Management </span> </h3>
-            <ul> <span className="category"> Ad- Sales </span>
-              <li> Support and research capacity; worked with Ad Data Express, MRI, IBISWorld, Sales Force to support the Ad-Sales teams </li>
-            </ul>
-            <ul> <span className="category"> User Research </span>
-              <li> Worked with UI and Engineering led teams to quantify user feedback for: </li>
-              <ul>
-                <li> Hard/Software, online and app. usability, product design & testing </li>
-                <li> Exploratory research for next generation product(s) </li>
-                <li> Qualitative research, focus groups, usability and A/B testing </li>
-              </ul>
-            </ul>
-            <ul> <span className="category"> Market Research </span>
-              <li> Survey analysis for prospect modeling, studies in brand perception for data clients with SPSS </li>
-              <li> Projections for potential markets as part of business and product development </li>
-              <li> Measurement of DVR/Telco. Industry reach & penetration across media platforms </li>
-              <li> Industry trending and pricing segmentation studies incorporating third party vendors; Acxiom,
-eMarketer, Forrester, etc. </li>
-            </ul>
-            <ul> <span className="category"> Audience Research Measurement </span>
-              <li> Managing new and existing client accounts for TiVo portals </li>
-              <li> Live vs. Time-shifted viewership for cable and broadcast TV & client creative(s) </li>
-              <li> Brand & commercial retention, program ranking, second by second viewership, promo- conversation, segmentation behavior </li>
+            <h3> Research Analyst | <span id="carat_title"> Consumer Insights </span> </h3>
+            <ul>
+              <li> Analysis of media trends & making actionable recommendations to client groups and new client prospects </li>
+              <li> Tracking studies, media effectiveness tests and market/media mix modeling </li>
+              <li> Supporting media planning and buying groups with day-to-day requests </li>
+              <li> Leverage syndicated data sources; 4A’s, Simmons, Mintel, CCS, Rentrak, etc. to develop consumer & media insights for clients </li>
+              <li> Market intelligence; gathering and information analysis primarily related to the digital media space </li>
+              <li> Competitive analysis using SPSS, Telmar suite and other analytical tools </li>
             </ul>
           </div>
         </div>

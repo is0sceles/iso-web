@@ -2,37 +2,30 @@ import React, { Component } from 'react';
 
 
 export default class Boni extends Component {
+  componentDidMount() {
+    const boniClose = document.getElementById('boni_close');
+    boniClose.addEventListener('click', () => {
+      const boni = document.getElementById('boni');
+      boni.classList.add('not_active');
+    });
+  }
   render() {
     return (
       <div className="modal_body">
-        <div className="container">
-          <div className="closeBtn"><i className="ion-close" /> </div>
+        <div id="boni" className="container overlay">
+          <div id="boni_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
-            <img src={require('../../assets/tivo.png')} className="logo_Images" alt="tivo_logo" />
+            <img src={require('../../assets/boni.png')} className="logo_Images" alt="boni_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}
-            <h3> Research Analyst | <span id="tivo_title"> Market Research & Account Management </span> </h3>
-            <ul> <span className="category"> Ad- Sales </span>
-              <li> Support and research capacity; worked with Ad Data Express, MRI, IBISWorld, Sales Force to support the Ad-Sales teams </li>
-            </ul>
-            <ul> <span className="category"> User Research </span>
-              <li> Worked with UI and Engineering led teams to quantify user feedback for: </li>
+            <h3> PM | <span id="boni_title"> Project Management & Web Analytics </span> </h3>
+            <ul>
+              <li> Web development & SEO set-up for e-commerce start-ups online presence </li>
+              <li> Implementation of web tracking with Google Analytics to understand: </li>
               <ul>
-                <li> Hard/Software, online and app. usability, product design & testing </li>
-                <li> Exploratory research for next generation product(s) </li>
-                <li> Qualitative research, focus groups, usability and A/B testing </li>
+                <li> client segmentation </li>
+                <li> funnel path & </li>
+                <li> conversion measurement for content optimization </li>
               </ul>
-            </ul>
-            <ul> <span className="category"> Market Research </span>
-              <li> Survey analysis for prospect modeling, studies in brand perception for data clients with SPSS </li>
-              <li> Projections for potential markets as part of business and product development </li>
-              <li> Measurement of DVR/Telco. Industry reach & penetration across media platforms </li>
-              <li> Industry trending and pricing segmentation studies incorporating third party vendors; Acxiom,
-eMarketer, Forrester, etc. </li>
-            </ul>
-            <ul> <span className="category"> Audience Research Measurement </span>
-              <li> Managing new and existing client accounts for TiVo portals </li>
-              <li> Live vs. Time-shifted viewership for cable and broadcast TV & client creative(s) </li>
-              <li> Brand & commercial retention, program ranking, second by second viewership, promo- conversation, segmentation behavior </li>
             </ul>
           </div>
         </div>
