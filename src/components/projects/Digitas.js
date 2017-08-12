@@ -15,7 +15,7 @@ export default class Digitas extends Component {
         <div id="digitas" className="container overlay">
           <div id="digitas_close" className="closeBtn"><i className="ion-close" /> </div>
           <div className="modal">
-            <img src={require('../../assets/digitaslbi.png')} className="logo_Images" alt="digitas_logo" />
+            <img src={require('../../assets/digitas.png')} className="logo_Images" alt="digitas_logo" />
             {/* <h4> <span className="job_years"> </span> </h4> */}
             <h3> Sr. Research Analyst | <span id="digitas_title"> Strategies & Analytics </span> </h3>
             <ul>
